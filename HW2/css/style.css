@@ -1,0 +1,8 @@
+.kartinka {
+    float: right;
+    object-fit: contain;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    display: inline-block;
+}
