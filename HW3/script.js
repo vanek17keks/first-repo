@@ -2,8 +2,8 @@ initThemeSwitcher()
 
 function initThemeSwitcher() {
     const themeHrefs = {
-        light: "day-variables.css",
-        dark: "night-variables.css",
+        light: "style/theme/day-variables.css",
+        dark: "style/theme/night-variables.css",
       },
       head = document.getElementsByTagName("head")[0],
       changeThemeButton = document.getElementById("change-theme-button");

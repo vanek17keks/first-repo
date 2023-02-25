@@ -9,6 +9,9 @@ html {
     color: #2c2f3c;
 
 }
+.change-theme-button{
+margin-left: 1300px;
+}
 
 button {
     outline: none;
@@ -70,7 +73,7 @@ h1 {
 }
 
 .backround--blue {
-    background-color: #14a0c7;
+    background-color: var(--highlight-color);
 }
 
 .tree_blocks {
@@ -91,7 +94,7 @@ h1 {
 }
 
 .btn--green {
-    background-color: #699900;
+    background-color: var(--btn-color);
     color: white;
 
 }
