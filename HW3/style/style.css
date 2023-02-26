@@ -6,7 +6,8 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    color: #2c2f3c;
+    color: var(--txt-color);
+    background-color: var(--backround-color);
 
 }
 .change-theme-button{
@@ -123,7 +124,7 @@ h1 {
     height: 260px;
     width: 880px;
     margin: 0 auto;
-    background-color: #21232e;
+    background-color: var(--block-color);
 }
 
 .adventure--white {
@@ -185,8 +186,7 @@ h1 {
     justify-content: space-between;
     height: 115px;
     width: 950px;
-    background: rgb(100, 148, 18);
-    background: linear-gradient(90deg, rgba(100, 148, 18, 1) 0%, rgba(49, 95, 205, 1) 100%);
+    background: var(--top-color);
     margin: 0 auto;
 }
 
@@ -219,7 +219,7 @@ footer .container {
 }
 
 .bot {
-    background-color: #21232e;
+    background-color: var(--footer-color);
     height: 190px;
     width: 100%;
     display: flex;

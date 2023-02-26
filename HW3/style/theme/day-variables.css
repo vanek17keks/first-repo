@@ -1,4 +1,9 @@
 :root{
     --btn-color: #699900;
     --highlight-color: #14a0c7;
+    --backround-color: white;
+    --footer-color: #21232e;
+    --top-color: linear-gradient(90deg, rgba(100, 148, 18, 1) 0%, rgba(49, 95, 205, 1) 100%);
+    --block-color: #21232e;
+    --txt-color: Black;
 }
