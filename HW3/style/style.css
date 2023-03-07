@@ -11,7 +11,9 @@ html {
 
 }
 .change-theme-button{
-margin-left: 1300px;
+margin-left: 1250px;
+text-transform: capitalize;
+cursor: pointer;
 }
 
 button {
@@ -97,7 +99,13 @@ h1 {
 .btn--green {
     background-color: var(--btn-color);
     color: white;
+    transition: 0.3s;
 
+}
+
+.btn--green:hover{
+    background-color: var(--btn-color-hover);
+    transition: 0.3s;
 }
 
 .adventure .container {

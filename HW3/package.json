@@ -1,0 +1,12 @@
+{
+  "name": "hw3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

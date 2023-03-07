@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: var(--txt-color);
+    background-color: var(--backround-color);
+
+}
+.change-theme-button{
+margin-left: 1250px;
+text-transform: capitalize;
+cursor: pointer;
+}
+
+button {
+    outline: none;
+    border: none;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+.rock {
+    height: 575px;
+    background: url('../img/m-h-day.jpg') center center/cover no-repeat;
+    padding-left: 150px;
+    border-radius: 0 0 40% 0;
+}
+
+.logo {
+    display: flex;
+    padding: 15px;
+    
+}
+
+.logo_img {
+    height: 35px;
+    width: 35px;
+}
+
+.logo_txt {
+    margin-left: 12px;
+}
+
+.big_txt {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.small_txt {
+    font-size: 8px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 50px;
+    margin-left: 0;
+    margin-top: 50px;
+    font-weight: 900;
+}
+
+.main_txt {
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.backround--blue {
+    background-color: var(--highlight-color);
+}
+
+.tree_blocks {
+    width: 90%;
+
+}
+
+.too_blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: white;
+    width: 50%;
+}
+
+.btn-block {
+    padding: 10px 30px;
+}
+
+.btn--green {
+    background-color: var(--btn-color);
+    color: white;
+    transition: 0.3s;
+
+}
+
+.btn--green:hover{
+    background-color: var(--btn-color-hover);
+    transition: 0.3s;
+}
+
+.adventure .container {
+    height: 100%;
+    width: 100%;
+}
+
+.adventure_main_txt {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.adventure_box {
+    display: flex;
+    height: 860px;
+    padding-top: 25px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.adventure_block {
+    display: flex;
+    height: 260px;
+    width: 880px;
+    margin: 0 auto;
+    background-color: var(--block-color);
+}
+
+.adventure--white {
+    color: white;
+}
+
+.adventure_img {
+    display: flex;
+    justify-content: flex-start;
+    margin: 3% 0 3% 3%;
+
+}
+
+.adventure_scale {
+    height: 80%;
+    width: 525px;
+}
+
+.adventure_title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.adventure_txt {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.adventure_link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.adventure_compound {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.adventure--grey {
+    color: #c0c0c0;
+}
+
+.adventure_main_txt h2 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    width: 950px;
+    background: var(--top-color);
+    margin: 0 auto;
+}
+
+footer .container {
+    padding-top: 103px;
+}
+
+.top .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38%;
+}
+
+.top_two {
+    width: 55%;
+    padding: 25px 0 25px 130px;
+}
+
+.top_txt {
+    margin-top: 17px;
+    color: #c0c0c0;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.top .title {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.bot {
+    background-color: var(--footer-color);
+    height: 190px;
+    width: 100%;
+    display: flex;
+    z-index: -1;
+    align-items: flex-end;
+    justify-content: space-around;
+    color: white;
+}
+
+footer .container_2 {
+    display: flex;
+
+}
+
+footer .container {
+    margin-bottom: -55px;
+}
+
+.bot_txt {
+    font-weight: 300;
+    font-size: 11px;
+    padding-bottom: 53px;
+}
+
+.no_number {
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 65px;
+}
+
+.bot .logo {
+    padding-bottom: 54px;
+}

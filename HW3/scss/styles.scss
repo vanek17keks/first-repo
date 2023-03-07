@@ -1,0 +1,42 @@
+.rock {
+    height: 575px;
+    background: url('../img/m-h-day.jpg') center center/cover no-repeat;
+    padding-left: 150px;
+    border-radius: 0 0 40% 0;
+    .logo {
+        display: flex;
+        padding: 15px;
+        &_img {
+            height: 35px;
+            width: 35px;
+        }
+        &_txt {
+            margin-left: 12px;
+            .big_txt {
+                font-size: 18px;
+                font-weight: 500;
+            }
+            .small_txt {
+                font-size: 8px;
+                margin-left: 10px;
+            }
+        }
+    }
+    .title {
+        font-size: 50px;
+        margin-left: 0;
+        margin-top: 50px;
+        font-weight: 900;
+        .backround--blue {
+            background-color: var(--highlight-color);
+        }
+    }
+    .tree_blocks {
+        .main_txt {
+
+        }
+        .too_blocks {
+            
+        }
+    }
+}

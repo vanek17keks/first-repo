@@ -1,9 +1,11 @@
 :root{
     --btn-color: #e3ac00;
+    --btn-color-hover: #ce9b00;
     --highlight-color: #ff4e33;
     --backround-color: #21232e;
     --footer-color: #3b3f50;
     --top-color: linear-gradient(90deg, rgba(222,164,5,1) 0%, rgba(150,50,78,1) 100%);
     --block-color: #3b3f50;
     --txt-color: white;
+    
 }
