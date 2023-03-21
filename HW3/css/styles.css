@@ -16,7 +16,8 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: var(--txt-color);
-  background-color: var(--backround-color); }
+  background-color: var(--backround-color);
+  min-width: fit-content; }
 
 .change-theme-button {
   margin-left: 1250px;

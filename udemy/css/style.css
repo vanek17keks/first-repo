@@ -71,3 +71,37 @@
       .mobile_item_plus img {
         width: 100%;
         height: 100%; }
+
+.require {
+  padding: 68px 0 84px 0; }
+  .require_block {
+    margin: 33px 0; }
+    .require_block_mbn {
+      margin-bottom: 0px; }
+  .require_title {
+    font-size: 22px;
+    color: #1ca8c3; }
+  .require_list {
+    list-style-type: none;
+    padding-left: 50px;
+    margin-top: 22px; }
+    .require_list li {
+      display: block;
+      position: relative;
+      font-size: 17px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .require_list li::before {
+        content: '';
+        position: absolute;
+        left: -31px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 21px;
+        height: 20px;
+        background: url("../img/item.jpg") center center/cover no-repeat; }
+  .require_descr {
+    margin-top: 25px;
+    color: #1ca8c3; }
+  .require .warning .require_title {
+    color: red; }

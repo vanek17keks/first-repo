@@ -1,5 +1,5 @@
 @import "./theme/day-vatiables.scss";
-
+@import "media";
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +10,7 @@ html {
     font-family: 'Roboto', sans-serif;
     color: var(--txt-color);
     background-color: var(--backround-color);
-
+min-width: fit-content
 }
 
 .change-theme-button {
