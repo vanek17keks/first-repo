@@ -44,11 +44,13 @@
 
     .container_main {
         padding-bottom: 80px;
+
         .big_txt {
             display: flex;
             justify-content: center;
             align-items: end;
             font-size: 50px;
+
             span {
                 font-size: 80px;
             }
@@ -64,14 +66,16 @@
 
     .container_btn {
         padding-bottom: 70px;
+
         .menu_btn {
             display: flex;
             justify-content: center;
+
             button {
                 height: 45px;
                 width: 220px;
                 border: 2px solid white;
-                background-color: rgba(0,0,0,0.6);
+                background-color: rgba(0, 0, 0, 0.6);
                 color: white;
             }
         }
@@ -82,36 +86,21 @@
 .sub-article {
     background-color: white;
     height: 33vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    padding: 0 3em;
+
     .container {
         height: 100%;
         display: flex;
-        .big_txt {
-            width: 50%;
-            font-size: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            .one {
-                display: flex;
-                width: 100%;
-                height: 30px;
-            }
-            .two {
-                display: flex;
-                width: 100%;
-                height: 30px;
-            }
+        justify-content: space-between;
+        align-items: center;
 
+        .big_txt {
+            width: 30%;
+            font-size: 24px;
         }
+
         .small_txt {
             width: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
     }
 }
