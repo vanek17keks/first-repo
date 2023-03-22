@@ -16,8 +16,7 @@
 html {
   font-family: 'Roboto', sans-serif;
   color: var(--txt-color);
-  background-color: var(--backround-color);
-  min-width: fit-content; }
+  background-color: var(--backround-color); }
 
 .change-theme-button {
   margin-left: 1250px;
@@ -70,7 +69,8 @@ a {
   height: 575px;
   background: url("../img/m-h-day.jpg") center center/cover no-repeat;
   padding-left: 150px;
-  border-radius: 0 0 40% 0; }
+  border-radius: 0 0 40% 0;
+  width: 100vw; }
   .rock .title {
     font-size: 50px;
     margin-left: 0;

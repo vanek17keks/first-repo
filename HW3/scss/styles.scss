@@ -1,5 +1,6 @@
 @import "./theme/day-vatiables.scss";
-@import "media";
+@import "media.scss";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +11,7 @@ html {
     font-family: 'Roboto', sans-serif;
     color: var(--txt-color);
     background-color: var(--backround-color);
-min-width: fit-content
+
 }
 
 .change-theme-button {
@@ -84,6 +85,7 @@ a {
     background: url('../img/m-h-day.jpg') center center/cover no-repeat;
     padding-left: 150px;
     border-radius: 0 0 40% 0;
+    width: 100vw;
 
     .title {
         font-size: 50px;

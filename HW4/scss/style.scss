@@ -1,0 +1,117 @@
+@import "fonts.scss";
+@import "reset.scss";
+
+* {
+    box-sizing: border-box;
+}
+
+
+.menu {
+    background: url('../img/apples.jpg') center center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .container_menu {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        padding-bottom: 90px;
+
+        .menu_navigation {
+            width: 38%;
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            color: white;
+
+            li {
+                a {
+                    color: white;
+                }
+
+            }
+        }
+
+        .logo {
+            margin-left: 190px;
+        }
+
+
+    }
+
+    .container_main {
+        padding-bottom: 80px;
+        .big_txt {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            font-size: 50px;
+            span {
+                font-size: 80px;
+            }
+        }
+
+        .small_txt {
+            display: flex;
+            justify-content: center;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    }
+
+    .container_btn {
+        padding-bottom: 70px;
+        .menu_btn {
+            display: flex;
+            justify-content: center;
+            button {
+                height: 45px;
+                width: 220px;
+                border: 2px solid white;
+                background-color: rgba(0,0,0,0.6);
+                color: white;
+            }
+        }
+    }
+}
+
+
+.sub-article {
+    background-color: white;
+    height: 33vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .container {
+        height: 100%;
+        display: flex;
+        .big_txt {
+            width: 50%;
+            font-size: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .one {
+                display: flex;
+                width: 100%;
+                height: 30px;
+            }
+            .two {
+                display: flex;
+                width: 100%;
+                height: 30px;
+            }
+
+        }
+        .small_txt {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

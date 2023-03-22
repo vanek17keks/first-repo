@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'Greek';
+	src: url('../fonts/Greek.eot');
+	src: local('../fonts/Greek Regular'), local('Greek'),
+		url('../fonts/Greek.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Greek.woff') format('woff'),
+		url('../fonts/Greek.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
