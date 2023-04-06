@@ -56,7 +56,8 @@ table {
     .main .container .title {
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      padding-top: 40px; }
       .main .container .title h1 {
         font-size: 50px;
         text-align: center;
@@ -67,7 +68,8 @@ table {
         color: #292929; }
       .main .container .title_txt {
         font-size: 16px;
-        margin-top: 22px; }
+        margin-top: 22px;
+        width: 470px; }
       .main .container .title .button {
         margin: 0 auto;
         margin-top: 20px; }
@@ -148,7 +150,8 @@ table {
   .promotion_txt {
     margin-top: 30px;
     text-align: center;
-    line-height: 20px; }
+    line-height: 20px;
+    width: 450px; }
     .promotion_txt a {
       text-decoration: none; }
   .promotion_btn {
@@ -167,7 +170,8 @@ table {
       font-size: 28px; }
     .postings .container .postings_box .postings_txt {
       font-size: 15px;
-      margin-top: 30px; }
+      margin-top: 30px;
+      width: 270px; }
     .postings .container .postings_box .postings_btn {
       margin-top: 20px; }
 
@@ -182,7 +186,8 @@ table {
   .access_txt {
     margin-top: 30px;
     text-align: center;
-    line-height: 20px; }
+    line-height: 20px;
+    width: 465px; }
     .access_txt a {
       text-decoration: none; }
     .access_txt b {
@@ -199,34 +204,66 @@ table {
   justify-content: center;
   align-items: center; }
   .feedback_txt {
-    text-align: center; }
+    text-align: center;
+    width: 435px; }
 
 @media screen and (max-width: 576px) {
-  .main .container {
-    display: flex;
-    flex-direction: column-reverse; }
-    .main .container .category-section {
+  .main {
+    padding: 60px 0px; }
+    .main .container {
       display: flex;
-      flex-wrap: wrap;
-      margin-left: 0px; }
-      .main .container .category-section_1 {
-        background-position: 100%; }
-      .main .container .category-section_2 {
-        background-position: 100%;
-        margin-left: 10px; }
-      .main .container .category-section_3 {
-        margin-top: 10px;
-        background-position: 100%;
-        width: 62%; }
-      .main .container .category-section_4 {
-        width: 35%;
-        background-size: cover;
-        margin-top: 10px;
-        margin-left: 10px; }
-      .main .container .category-section_5 {
-        background-position: 100%;
-        margin-top: 10px; }
-      .main .container .category-section_6 {
-        background-position: 100%;
-        margin-top: 10px;
-        margin-left: 10px; } }
+      flex-direction: column-reverse; }
+      .main .container .title_txt {
+        width: 420px; }
+      .main .container .category-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px; }
+        .main .container .category-section_1 {
+          background-position: 100%; }
+        .main .container .category-section_2 {
+          background-position: 100%;
+          margin-left: 10px; }
+        .main .container .category-section_3 {
+          margin-top: 10px;
+          background-position: 100%;
+          width: 64%; }
+        .main .container .category-section_4 {
+          width: 33%;
+          background-size: cover;
+          margin-top: 10px;
+          margin-left: 10px; }
+        .main .container .category-section_5 {
+          background-position: 100%;
+          margin-top: 10px; }
+        .main .container .category-section_6 {
+          background-position: 100%;
+          margin-top: 10px;
+          margin-left: 10px; }
+  .advantage {
+    height: 300px; }
+    .advantage .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 40px; }
+      .advantage .container .item {
+        height: 0px; }
+        .advantage .container .item_txt {
+          width: 300px; }
+  .promotion_txt {
+    width: 340px; }
+  .access_txt {
+    width: 310px; }
+  .postings {
+    height: 600px; }
+    .postings .container {
+      flex-wrap: wrap-reverse;
+      height: 500px;
+      padding-top: 50px; }
+      .postings .container .postings_img {
+        width: 100%; }
+      .postings .container .postings_txt {
+        width: 310px; }
+  .feedback_txt {
+    width: 250px; } }
