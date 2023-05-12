@@ -1,0 +1,163 @@
+@media screen and (max-width: 1500px) {
+    .footer {
+        .footer__base {
+            .footer__lists {
+                padding-right: 0px;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .solutions {
+        padding: 72px 80px;
+    }
+
+    .unclaimed {
+        padding: 53px 50px 72px 80px;
+    }
+
+    .tradebid {
+        padding: 30px 90px 72px 50px;
+    }
+
+    .blog {
+        padding: 72px 150px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .international {
+        padding: 40px 0px;
+    }
+
+    .blog {
+        padding: 72px 29px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .international {
+        &__img {
+            width: 516px;
+            height: 365px;
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .international {
+        &__img {
+            width: 413px;
+            height: 292px;
+        }
+    }
+
+    .solutions {
+        padding: 72px 0px;
+    }
+
+    .unclaimed {
+        padding: 53px 20px 72px 40px;
+    }
+
+    .tradebid {
+        padding: 30px 10px 72px 00px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ml16 {
+        margin-left: 0px;
+    }
+    
+    .international {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+
+        &__img {
+            width: 516px;
+            height: 365px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .solutions {
+        padding: 20px 0px 20px 0px;
+        height: 500px;
+
+        &__title {
+            margin-bottom: 20px;
+        }
+    }
+
+    .unclaimed {
+        flex-direction: column-reverse;
+        align-items: center;
+
+        &__img {
+            width: 405px;
+            height: 279px;
+        }
+
+        &__base {
+            margin-top: 30px;
+        }
+    }
+
+    .tradebid {
+        flex-direction: column;
+        align-items: center;
+        &__img {
+            width: 405px;
+            height: 279px;
+        }
+
+        &__base {
+            margin-top: 30px;
+        }
+    }
+
+    .blog {
+        &__tab {
+
+            &__img {
+                display: none;
+            }
+        }
+    }
+
+    .footer {
+        height: 330px;
+        .footer__base {
+            flex-direction: column-reverse;
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .solutions {
+        padding: 20px 0px 0px 0px;
+        height: 650px;
+        &__general {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__img {
+            margin-bottom: 30px;
+            width: 405px;
+            height: 307px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .blog .swiper {
+        width: 303px;
+        height: 284px;
+    }
+}

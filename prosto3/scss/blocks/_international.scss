@@ -1,0 +1,40 @@
+.international {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+    &__base {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 59px;
+
+        &__title {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 36px;
+            width: 450px;
+            color: #0F0F11;
+            margin-bottom: 24px;
+        }
+
+        &__subtitle {
+            font-weight: 400;
+            font-size: 18px;
+            color: #0F0F11;
+            width: 480px;
+            margin-bottom: 32px;
+        }
+    }
+
+    &__img {
+        background: url('../img/international.svg') center center/cover no-repeat;
+        width: 689px;
+        height: 487px;
+    }
+}
+
+.blue-txt {
+    color: #005DFF;
+    text-transform: uppercase;
+}

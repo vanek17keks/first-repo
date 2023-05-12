@@ -1,0 +1,37 @@
+.unclaimed {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 99px 72px 160px;
+
+    &__img {
+        background: url('../img/container.svg') center center/cover no-repeat;
+        width: 540px;
+        height: 373px;
+    }
+
+    &__base {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &__title {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            color: #0F0F11;
+            margin-bottom: 16px;
+        }
+
+        &__subtitle {
+            width: 420px;
+            color: #556274;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            margin-bottom: 32px;
+        }
+
+        &__buttons {
+            display: flex;
+        }
+    }
+}
