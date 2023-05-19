@@ -2,7 +2,7 @@
     .footer {
         .footer__base {
             .footer__lists {
-                padding-right: 0px;
+                padding-right: 0;
             }
 
         }
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 1300px) {
     .international {
-        padding: 40px 0px;
+        padding: 40px 0;
     }
 
     .blog {
@@ -55,7 +55,7 @@
     }
 
     .solutions {
-        padding: 72px 0px;
+        padding: 72px 0;
     }
 
     .unclaimed {
@@ -68,8 +68,8 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .ml16 {
-        margin-left: 0px;
+    .ml-16 {
+        margin-left: 0;
     }
     
     .international {
@@ -85,7 +85,7 @@
     }
 
     .solutions {
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0;
         height: 500px;
 
         &__title {
@@ -122,7 +122,6 @@
 
     .blog {
         &__tab {
-
             &__img {
                 display: none;
             }
@@ -130,7 +129,7 @@
     }
 
     .footer {
-        height: 330px;
+        height: 335px;
         .footer__base {
             flex-direction: column-reverse;
         }
@@ -155,8 +154,60 @@
     }
 }
 
-@media screen and (max-width: 540px) {
-    .blog__tab {
-        flex-wrap: nowrap;
+@media screen and (max-width: 700px) {
+    .blog {
+        display: none;
+    }
+
+    .blog-sm {
+        display: block;
+    }
+
+    .footer {
+        height: 508px;
+        .footer__base {
+            .footer__content {
+                margin-top: 50px;
+                margin-bottom: 30px;
+            }
+            .footer__lists {
+                width: 100px;
+                .footer__list {
+                    flex-direction: column;
+                    width: 100px;
+                    .footer__list__item {
+                        width: 100px;
+                        margin-bottom: 15px;
+                    }
+                    .footer__list__point {
+                        display: none;
+                    }
+                }
+            }
+            .footer__terms {
+                display: none;
+            }
+        }
+    }
+
+    .header {
+        padding: 8px 10px 8px 7px;
+
+        &__nav {
+            .list {
+                .element {
+                    margin: 0px 6px;
+                }
+                .element-new {
+                    line-height: 12px;
+                    padding: 1px 4px;
+                    letter-spacing: 1px;
+                    font-size: 8px;
+                    width: 32px;
+                    height: 14px;
+                    left: 267px;
+                }
+            }
+        }
     }
 }

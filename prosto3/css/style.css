@@ -7,7 +7,6 @@ body {
 
 html,
 body,
-div,
 span,
 applet,
 object,
@@ -160,7 +159,7 @@ i {
 b {
   font-weight: bold; }
 
-.blog.swiper .blog__tab.swiper-wrapper {
+.blog-sm.swiper .blog-sm__tab.swiper.swiper-wrapper {
   height: auto !important; }
 
 .header {
@@ -373,11 +372,49 @@ b {
     .blog__tab__items {
       display: flex; }
 
-.ml16 {
+.ml-16 {
   margin-left: 16px; }
 
-.mb16 {
+.mb-16 {
   margin-bottom: 16px; }
+
+.blog-sm {
+  display: none;
+  padding: 40px 0px 56px 8px; }
+  .blog-sm__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #0F0F11;
+    margin-bottom: 32px; }
+  .blog-sm__tab {
+    display: flex; }
+    .blog-sm__tab__item {
+      padding: 24px 24px 32px 24px;
+      width: 303px;
+      height: 284px;
+      border-radius: 4px;
+      box-shadow: 2px 2px 8px #e3eaf1; }
+    .blog-sm__tab__overhead {
+      color: #005DFF;
+      font-weight: 500;
+      font-size: 12px;
+      margin-bottom: 8px;
+      line-height: 16px; }
+    .blog-sm__tab__title {
+      width: 303px;
+      color: #0F0F11;
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 8px;
+      line-height: 32px; }
+    .blog-sm__tab__subtitle {
+      width: 303px;
+      color: #556274;
+      font-weight: 400;
+      font-size: 14px;
+      margin-bottom: 48px;
+      line-height: 20px; }
 
 .platform {
   background: url("../img/platform.svg") center center/cover no-repeat;
@@ -398,7 +435,7 @@ b {
 .footer {
   height: 230px;
   background-color: #0F0F11;
-  padding: 50px 40px 0px 40px; }
+  padding: 50px 40px 0 40px; }
   .footer .footer__base {
     display: flex;
     justify-content: space-between; }
@@ -481,7 +518,7 @@ b {
 
 @media screen and (max-width: 1500px) {
   .footer .footer__base .footer__lists {
-    padding-right: 0px; } }
+    padding-right: 0; } }
 
 @media screen and (max-width: 1400px) {
   .solutions {
@@ -495,7 +532,7 @@ b {
 
 @media screen and (max-width: 1300px) {
   .international {
-    padding: 40px 0px; }
+    padding: 40px 0; }
   .blog {
     padding: 72px 29px; } }
 
@@ -509,15 +546,15 @@ b {
     width: 413px;
     height: 292px; }
   .solutions {
-    padding: 72px 0px; }
+    padding: 72px 0; }
   .unclaimed {
     padding: 53px 20px 72px 40px; }
   .tradebid {
     padding: 30px 10px 72px 00px; } }
 
 @media screen and (max-width: 1000px) {
-  .ml16 {
-    margin-left: 0px; }
+  .ml-16 {
+    margin-left: 0; }
   .international {
     display: flex;
     justify-content: center;
@@ -527,7 +564,7 @@ b {
       height: 365px;
       margin-bottom: 32px; }
   .solutions {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0;
     height: 500px; }
     .solutions__title {
       margin-bottom: 20px; }
@@ -550,7 +587,7 @@ b {
   .blog__tab__img {
     display: none; }
   .footer {
-    height: 330px; }
+    height: 335px; }
     .footer .footer__base {
       flex-direction: column-reverse; } }
 
@@ -566,6 +603,37 @@ b {
       width: 405px;
       height: 307px; } }
 
-@media screen and (max-width: 540px) {
-  .blog__tab {
-    flex-wrap: nowrap; } }
+@media screen and (max-width: 700px) {
+  .blog {
+    display: none; }
+  .blog-sm {
+    display: block; }
+  .footer {
+    height: 508px; }
+    .footer .footer__base .footer__content {
+      margin-top: 50px;
+      margin-bottom: 30px; }
+    .footer .footer__base .footer__lists {
+      width: 100px; }
+      .footer .footer__base .footer__lists .footer__list {
+        flex-direction: column;
+        width: 100px; }
+        .footer .footer__base .footer__lists .footer__list .footer__list__item {
+          width: 100px;
+          margin-bottom: 15px; }
+        .footer .footer__base .footer__lists .footer__list .footer__list__point {
+          display: none; }
+    .footer .footer__base .footer__terms {
+      display: none; }
+  .header {
+    padding: 8px 10px 8px 7px; }
+    .header__nav .list .element {
+      margin: 0px 6px; }
+    .header__nav .list .element-new {
+      line-height: 12px;
+      padding: 1px 4px;
+      letter-spacing: 1px;
+      font-size: 8px;
+      width: 32px;
+      height: 14px;
+      left: 267px; } }
